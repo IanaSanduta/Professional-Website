@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <title>Recipes</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Careers.html">Careers</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        <img id="myImage" src="image1.jpg" alt="Image 1">
+    </div>
+
+    <!-- Button to change the image -->
+    <button onclick="nextImage()">Next Image</button>
+
+    <footer>
+        <p>&copy; 2023 </p>
+    </footer>
+
+    <script>
+        // Define an array of image sources
+        var images = ["images/s-o-c-i-a-l-c-u-t-hwy3W3qFjgM-unsplash.jpg", "image2.jpg", "image3.jpg"];
+        var currentImageIndex = 0;
+        var imageElement = document.getElementById("myImage");
+
+        // Function to show the next image
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            imageElement.src = images[currentImageIndex];
+        }
+
+        // Initial display of the first image
+        imageElement.src = images[currentImageIndex];
+    </script>
+</body>
+
+</html>
