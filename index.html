@@ -25,11 +25,6 @@
 
     <!-- Button to change the image -->
     <button onclick="nextImage()">Next Image</button>
-
-    <footer>
-        <p>&copy; 2023 </p>
-    </footer>
-
     <script>
         // Define an array of image sources
         var images = ["images/s-o-c-i-a-l-c-u-t-hwy3W3qFjgM-unsplash.jpg", "image2.jpg", "image3.jpg"];
@@ -45,6 +40,41 @@
         // Initial display of the first image
         imageElement.src = images[currentImageIndex];
     </script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>About Us</h3>
+                <p>Your website's mission and description go here.</p>
+                <ul class="social-media">
+                    <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="images/linkedin-icon.png" alt="Linkedin"></a></li>
+                </ul>
+            </div>
+            <div class="footer-center">
+                <h3>Contact Information</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123-456-7890</p>
+                <address>
+                    <p>123 Main St</p>
+                    <p>City, State ZIP</p>
+                </address>
+            </div>
+            <div class="footer-right">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
 </body>
 
 </html>
