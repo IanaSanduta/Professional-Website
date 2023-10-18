@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
-    <title>Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Grandma's Kitchen</title>
 </head>
 
 <body>
@@ -21,10 +22,9 @@
     <!-- Slideshow container -->
     <div class="slideshow-container">
         <img id="myImage" src="image1.jpg" alt="Image 1">
+        <button class="prev" onclick="prevImage()"><i class="fas fa-chevron-left"></i></button>
+        <button class="next" onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
     </div>
-
-    <!-- Button to change the image -->
-    <button onclick="nextImage()">Next Image</button>
 
     <footer>
         <p>&copy; 2023 </p>
@@ -32,13 +32,19 @@
 
     <script>
         // Define an array of image sources
-        var images = ["images/s-o-c-i-a-l-c-u-t-hwy3W3qFjgM-unsplash.jpg", "image2.jpg", "image3.jpg"];
+        var images = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg", "images/image4.jpg"];
         var currentImageIndex = 0;
         var imageElement = document.getElementById("myImage");
 
         // Function to show the next image
         function nextImage() {
             currentImageIndex = (currentImageIndex + 1) % images.length;
+            imageElement.src = images[currentImageIndex];
+        }
+
+        // Function to show the previous image
+        function prevImage() {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
             imageElement.src = images[currentImageIndex];
         }
 
