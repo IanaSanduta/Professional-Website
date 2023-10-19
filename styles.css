@@ -371,3 +371,318 @@ button {
 .next {
     right: 0;
 }
+
+    {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: left;
+    color: #fff;
+    background-color: #333;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-center {
+    padding: 0 20px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+    display: block;
+}
+
+.footer-content ul li a:hover {
+    color: #ff9900;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags li {
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tags li a:hover {
+    color: #ff9900;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.latest-news {
+    list-style-type: none;
+    padding: 0;
+}
+
+.latest-news li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.latest-news img {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content h4 {
+    margin: 0;
+    color: #fff;
+}
+
+.news-date {
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.footer-content {
+    align-items: center;
+    /* Center content horizontally */
+    text-align: center;
+    /* Center text content */
+}
+
+.social-media img {
+    border-radius: 50%;
+    /* Make the images rounded */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    list-style: none;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+    /* Darker background color */
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    font-size: 16px;
+    color: #fff;
+}
+
+.contact-us {
+    background-color: #333;
+    /* Dark background color for the container */
+    padding: 30px;
+    /* More spacious padding inside the container */
+    color: #fff;
+    /* White text color */
+    width: 550px;
+    /* Slightly wider for better design */
+    border-radius: 15px;
+    /* Smooth rounded corners for the container */
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    /* Increased space below the heading for balance */
+    font-weight: 600;
+    /* Semi-bold heading */
+}
+
+.contact-us input[type="email"],
+.contact-us textarea {
+    width: 100%;
+    padding: 12px 15px;
+    /* Added more padding for comfort */
+    border: 1px solid #444;
+    /* Subtle border */
+    border-radius: 10px;
+    /* Rounded corners for input/textarea */
+    margin-bottom: 15px;
+    /* Increased space between elements for clarity */
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    /* Comfortable text size */
+    transition: border 0.3s;
+    /* Smooth transition effect for border */
+}
+
+/* Giving focus effect for better user experience */
+.contact-us input[type="email"]:focus,
+.contact-us textarea:focus {
+    border: 1px solid #555;
+    /* Slightly lighter border on focus */
+    outline: none;
+    /* Remove the default focus outline */
+}
+
+.contact-us textarea {
+    height: 100px;
+    /* Set height for the message box */
+    resize: vertical;
+    /* Allow vertical resizing only */
+}
+
+.contact-us input[type="submit"] {
+    width: 582px;
+    padding: 12px 15px;
+    /* Added more padding for comfort */
+    border: none;
+    border-radius: 10px;
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+    /* Semi-bold font for the button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Smooth transition effect for background color */
+}
+
+.contact-us input[type="submit"]:hover {
+    background-color: #666;
+    /* Darker shade on hover */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.recipe-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.recipe-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    flex: 1 0 32%;
+    position: relative;
+    width: 98%;
+    margin: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card .recipe-img-container {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.recipe-heart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 28px;
+    height: 28px;
+    background-color: #ff6666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.recipe-category {
+    font-weight: bold;
+    color: grey;
+    margin: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.recipe-title {
+    font-size: 20px;
+    margin: 0 15px 15px;
+    font-weight: 600;
+}

@@ -11,7 +11,14 @@
 
 
 <body>
-    <div id="navbar-container"></div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">About</a></li>
+            <li><a href="../News.html">News</a></li>
+            <li><a href="../Careers.html">Careers</a></li>
+            <li><a href="../Services.html">Services</a></li>
+        </ul>
+    </nav>
 
     <div style="justify-content: center; align-items: center; width: 700px; margin: 0 auto;">
         <h1 style=" text-align: center;">Welcome to Grangmas Kitchen!</h1>
@@ -41,11 +48,55 @@
     </div>
 
 
-    <footer>
-        <p>&copy; 2023 </p>
-    </footer>
-    <script src="navbar.js"></script>
     <script src="function.js"></script>
+
 </body>
+<br><br><br>
+<footer>
+
+    <div class="footer-content">
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <input type="email" placeholder="Enter email">
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="footer-center">
+            <h3>About Us</h3>
+            <p>Your website's mission and description go here.</p>
+            <br>
+            <ul class="social-media">
+                <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/linkedin-icon.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/twitter-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="footer-center tags-section">
+            <h3>Tags & Common Words</h3>
+            <ul class="tags">
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Cooking Tips</a></li>
+                <li><a href="#">Foodie</a></li>
+                <li><a href="#">Healthy</a></li>
+                <li><a href="#">Delicious</a></li>
+            </ul>
+        </div>
+        <br>
+
+</footer>
+<div class="footer-bottom">
+    © 2023 Grandma's Kitchen. All rights reserved.
+</div>
 
 </html>
