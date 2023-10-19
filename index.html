@@ -9,16 +9,30 @@
     <title>Grandma's Kitchen</title>
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="Careers.html">Careers</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
+<body>
+    <div id="navbar-container"></div>
+
+    <div style="justify-content: center; align-items: center; width: 700px; margin: 0 auto;">
+        <h1 style=" text-align: center;">Welcome to Grangmas Kitchen!</h1>
+        <p1 class="ph"> Discover a world of culinary delights with our recipe website, where gastronomic passions come
+            to life.
+            Our
+            platform
+            serves as a digital culinary hub, offering a vast collection of meticulously curated recipes to
+            tantalize
+            your taste
+            buds. Whether you're a novice cook or a seasoned chef, our website caters to all skill levels with
+            step-by-step
+            instructions and helpful tips. Explore a diverse range of cuisines, from exotic international dishes to
+            classic comfort
+            foods, ensuring there's something for everyone. Join our vibrant cooking community, share your own
+            culinary
+            creations,
+            and embark on a flavorful journey through the art of cooking.</p1>
+    </div>
+
+    </div>
     <!-- Slideshow container -->
     <div class="slideshow-container">
         <img id="myImage" src="image1.jpg" alt="Image 1">
@@ -26,31 +40,12 @@
         <button class="next" onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
     </div>
 
+
     <footer>
         <p>&copy; 2023 </p>
     </footer>
-
-    <script>
-        // Define an array of image sources
-        var images = ["images/image1.jpg", "images/image2.jpg", "images/image3.jpg", "images/image4.jpg"];
-        var currentImageIndex = 0;
-        var imageElement = document.getElementById("myImage");
-
-        // Function to show the next image
-        function nextImage() {
-            currentImageIndex = (currentImageIndex + 1) % images.length;
-            imageElement.src = images[currentImageIndex];
-        }
-
-        // Function to show the previous image
-        function prevImage() {
-            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-            imageElement.src = images[currentImageIndex];
-        }
-
-        // Initial display of the first image
-        imageElement.src = images[currentImageIndex];
-    </script>
+    <script src="navbar.js"></script>
+    <script src="function.js"></script>
 </body>
 
 </html>

@@ -22,6 +22,7 @@ a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    font-size: 30px;
 }
 
 ul {
@@ -33,6 +34,13 @@ ul {
 li {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: inline;
+    margin: 0 10px;
+}
+
+.ph {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+
 }
 
 h1 {
