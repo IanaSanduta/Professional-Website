@@ -121,3 +121,183 @@ p {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
+
+/* Apply styling to the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the sections within the footer */
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Style the social media icons */
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Style the links in the footer */
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+/* Style the copyright text */
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .footer-left, .footer-center, .footer-right {
+        flex: 1 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+        /* Apply styling to the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center the content */
+        }
+
+        /* Style the footer content */
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Style the sections within the footer */
+        .footer-left, .footer-center, .footer-right, .tags-section {
+            padding: 0 20px;
+            margin-bottom: 30px; /* Add space between sections */
+        }
+
+        /* Style the social media icons */
+        .social-media {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-media li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-media img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 5px;
+        }
+
+        /* Style the links in the footer */
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-content ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-content ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-content ul li a:hover {
+            color: #ff9900; /* Change color on hover */
+        }
+
+        /* Style the contact form */
+        form {
+            text-align: left;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea,
+        form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        /* Style the latest news section */
+        .latest-news {
+            list-style: none;
+            padding: 0;
+        }
+
+        .latest-news li {
+            margin-bottom: 20px;
+        }
+
+        .latest-news img {
+            max-width: 100%;
+        }
+        
+        /* Style the tags section */
+        .tags {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tags li {
+            display: inline;
+            margin-right: 10px;
+        }
