@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Grandma's Kitchen</title>
+    <script src="common/jquery-3.7.1.js"></script>
 </head>
 
 
@@ -40,12 +41,17 @@
         <button class="next" onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
     </div>
 
-
-    <footer>
-        <p>&copy; 2023 </p>
-    </footer>
     <script src="navbar.js"></script>
     <script src="function.js"></script>
+    
+    <div id="footer"></div>
+
+    <script>
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
+
 </body>
 
 </html>

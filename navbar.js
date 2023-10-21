@@ -7,3 +7,5 @@
             .then(data => {
                 navbarContainer.innerHTML = data;
             });
+
+
