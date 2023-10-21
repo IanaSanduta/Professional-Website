@@ -1,3 +1,4 @@
+//All images are copyright free. Taken from https://unsplash.com/
 var images = [];
 images.push("images/image7.jpg");
 images.push("images/image1.jpg");

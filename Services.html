@@ -2,24 +2,26 @@
 <html>
 
 <head>
-    <meta charset="UTF-8"> <!-- Specifying character encoding -->
-    <title>Your Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS file -->
+    <title>Services</title>
+
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
+<!-- All images are copyright free. Taken from https://unsplash.com/ -->
 
 <body>
-
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
+    <nav> <!-- Navigation bar -->
+        <a href="index.html">
+            <img src="images/logo-clear.png" alt="Your Logo">
+        </a>
+        <ul> <!-- list for navigation links -->
             <li><a href="index.html">About</a></li>
             <li><a href="Blog.html">Blog</a></li>
             <li><a href="Careers.html">Careers</a></li>
             <li><a href="Services.html">Services</a></li>
         </ul>
     </nav>
+    <br /> <!-- Line break -->
 
-    <!-- Header Section -->
     <div style="justify-content: center; align-items: center;">
         <h1 style="text-align: center;">Our Services</h1>
     </div>
@@ -27,7 +29,7 @@
     <!-- Recipe Cards Container -->
     <div class="container">
         <div class="recipe-section">
-            <!-- Individual Recipe Card --> 
+            <!-- Individual Recipe Card -->
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -39,7 +41,7 @@
                     <h3 class="recipe-title">Halloween Mini Cheesecakes</h3>
                 </div>
             </div>
-            
+
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -51,7 +53,7 @@
                     <h3 class="recipe-title">Mixed Nut Medley</h3>
                 </div>
             </div>
-            
+
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -63,7 +65,7 @@
                     <h3 class="recipe-title">Tropical Fruit Delight</h3>
                 </div>
             </div>
-            
+
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -75,7 +77,7 @@
                     <h3 class="recipe-title">Hearty Bean Collection</h3>
                 </div>
             </div>
-            
+
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -87,7 +89,7 @@
                     <h3 class="recipe-title">Green Veggie Crunch</h3>
                 </div>
             </div>
-            
+
 
             <div class="recipe-card">
                 <div class="recipe-img-container">
@@ -99,65 +101,67 @@
                     <h3 class="recipe-title">Power Seed Mix</h3>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
-<!-- Start of Footer -->
-<footer>
 
-    <!-- Footer Content Section -->
-    <div class="footer-content">
-        
-        <!-- Contact Us Form -->
-        <div class="contact-us">
-            <h2>Contact Us</h2>
-            <form action="/submit" method="post">
-                <input type="email" placeholder="Enter email">
-                <textarea placeholder="Message"></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-
-        <!-- About Us Section -->
-        <div class="footer-center" style="align-items: center; width: 700px; margin: 0 auto;">
-            <h3>About Us</h3>
-            <p>
-                Grandma's Kitchen serves to be the digital hearth of our cherished culinary heritage. Our website doesn't
-                just present a menu; it's a portal to the past, a canvas of memories, and a testament to the love and care poured
-                into every dish Grandma created. Our mission is to provide our patrons with not only a visual feast but also a
-                nostalgic journey, offering a glimpse of the timeless recipes, heartwarming stories, and the age-old traditions
-                that make Grandma's Kitchen a sanctuary for soul-soothing meals. Here, you won't just find dishes; you'll
-                rediscover moments of joy, love, and togetherness.
-            </p>
-
-            <!-- Social Media Links -->
-            <ul class="social-media">
-                <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
-                <li><a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a></li> <!-- Corrected alt text for LinkedIn -->
-                <li><a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a></li> <!-- Corrected alt text for Twitter -->
-            </ul>
-        </div>
-
-        <!-- Tags & Common Words Section -->
-        <div class="footer-center tags-section">
-            <h3>Tags & Common Words</h3>
-            <ul class="tags">
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Cooking Tips</a></li>
-                <li><a href="#">Foodie</a></li>
-                <li><a href="#">Healthy</a></li>
-                <li><a href="#">Delicious</a></li>
-            </ul>
-        </div>
-    </div> <!-- End of Footer Content Section -->
-
-</footer> <!-- End of Footer -->
-
-<!-- Copyright Notice -->
-<div class="footer-bottom">
-    © 2023 Grandma's Kitchen. All rights reserved.
-</div>
-</body>
+    <br><br><br>
+    <footer> <!-- Footer section of the web page -->
+        <div class="footer-content">
+            <div class="contact-us">
+                <h2>Contact Us</h2>
+                <form action="/submit" method="post">
+                    <input type="email" placeholder="Enter email">
+                    <textarea placeholder="Message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="footer-center" style="align-items: center; width: 700px; margin: 0 auto;">
+                <!-- Centered content within the footer -->
+                <h3>About Us</h3> <!-- Heading for the About Us section -->
+                <p> <!-- Paragraph about Grandma's Kitchen and its mission -->
+                    Grandma's Kitchen serves to be the digital hearth of our cherished culinary heritage. Our website
+                    doesn't
+                    just present a menu; it's a portal to the past, a canvas of memories, and a testament to the love
+                    and
+                    care poured into
+                    every dish Grandma created. Our mission is to provide our patrons with not only a visual feast but
+                    also
+                    a nostalgic journey,
+                    offering a glimpse of the timeless recipes, heartwarming stories, and the age-old traditions that
+                    make
+                    Grandma's Kitchen
+                    a sanctuary for soul-soothing meals. Here, you won't just find dishes; you'll rediscover moments of
+                    joy,
+                    love, and togetherness.
+                </p> <!-- End of the paragraph -->
+                <br> <!-- Line break for separation -->
+                <ul class="social-media"> <!-- Unordered list for social media links -->
+                    <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+                    <!-- Facebook link with an icon -->
+                    <li><a href="#"><img src="images/linkedin-icon.png" alt="Twitter"></a></li>
+                    <!-- LinkedIn link with an icon -->
+                    <li><a href="#"><img src="images/twitter-icon.png" alt="Instagram"></a></li>
+                    <!-- Twitter link with an icon -->
+                </ul>
+            </div>
+            <br> <!-- Line break for separation -->
+            <div class="footer-center tags-section">
+                <h3>Tags & Common Words</h3>
+                <ul class="tags">
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Cooking Tips</a></li>
+                    <li><a href="#">Foodie</a></li>
+                    <li><a href="#">Healthy</a></li>
+                    <li><a href="#">Delicious</a></li>
+                </ul>
+            </div>
+            <br>
+    </footer>
+    <div class="footer-bottom">
+        © 2023 Grandma's Kitchen. All rights reserved.
+    </div>
+    <script src="navbar.js"></script>
 
 </html>
